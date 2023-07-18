@@ -1,0 +1,37 @@
+sudo 
+Abreviatura de superusuario do, sudo es uno de los comandos básicos más populares de Linux que te permite realizar tareas que requieren permisos administrativos o de root.
+Al utilizar sudo, el sistema pedirá a los usuarios que se autentiquen con una contraseña
+
+cd
+El comando cd se utiliza para cambiar el directorio actual en la terminal. Si se utiliza sin argumentos, simplemente regresará al directorio de inicio del usuario.
+Por ejemplo, si estás en el directorio /home/usuario/documentos y ejecutas cd, volverás al directorio de inicio del usuario, que generalmente es /home/usuario.
+
+ls
+Lista los archivos y directorios del directorio actual. Si se ejecuta sin argumentos, muestra el contenido del directorio actual. Por ejemplo, ls muestra los archivos y directorios en el directorio actual.
+
+mkdir
+Crea un nuevo directorio. Se utiliza seguido del nombre del directorio que se desea crear. Por ejemplo, mkdir mi_carpeta creará un nuevo directorio llamado "mi_carpeta".
+
+nano
+Es un editor de texto en la terminal que te permite crear y editar archivos de texto. Se utiliza seguido del nombre del archivo que deseas editar. Por ejemplo, nano mi_archivo.txt abrirá el archivo "mi_archivo.txt" para editarlo.
+
+cat
+Muestra el contenido de un archivo en la terminal. Se utiliza seguido del nombre del archivo que deseas mostrar. Por ejemplo, cat mi_archivo.txt muestra el contenido del archivo "mi_archivo.txt".
+
+touch
+Crea un nuevo archivo vacío o actualiza la fecha de modificación de un archivo existente. Se utiliza seguido del nombre del archivo que deseas crear o modificar. Por ejemplo, touch nuevo_archivo.txt crea un nuevo archivo llamado "nuevo_archivo.txt".
+
+git status
+Muestra el estado de los archivos en un repositorio de Git. Proporciona información sobre los archivos modificados, agregados, eliminados, entre otros estados. Es útil para ver qué cambios se han realizado en el repositorio.
+
+git add . 
+Agrega los cambios en los archivos al área de preparación de Git. Los cambios agregados con este comando estarán listos para ser confirmados en el repositorio en el próximo paso de git commit.
+
+git commit -m "lo que se quiere ver en el commit"
+se utiliza en Git para realizar una confirmación (commit) con un mensaje descriptivo que explica los cambios que se están agregando al repositorio. La opción -m se usa para especificar el mensaje directamente en la línea de comandos, en lugar de abrir un editor de texto para escribir el mensaje.
+
+git push
+El comando git push se utiliza en Git para enviar tus cambios locales confirmados a un repositorio remoto. Después de hacer cambios en tu repositorio local y confirmarlos con git commit, puedes usar git push para cargar esos cambios en el repositorio remoto, permitiendo que otros colaboradores vean y descarguen tus cambios.
+
+echo.bashrc
+El comando echo .bashrc imprimirá en la terminal el contenido del archivo .bashrc en lugar de abrirlo para editarlo. Si el archivo .bashrc contiene contenido, este se mostrará en la pantalla. Sin embargo, si no hay contenido en el archivo, el comando no mostrará nada.
